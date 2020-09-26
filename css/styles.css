@@ -1,0 +1,131 @@
+body{
+  color: black;
+  font-size: 14px;
+  background-color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+
+}
+
+/*************HEADER STYLING**********/
+#header-nav{
+    background-color: peachpuff;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+.navbar-header{
+    margin-top: -20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.navbar-brand{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.navbar-brand h1{
+  font-weight: bold;
+    line-height: 1.7;
+    color:black;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+/*********Menu Button Styling*********/  
+  
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 3px solid black;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+  .navbar-header button.navbar-toggle {
+    position: absolute;
+    top: 60px;
+    right: 4px;
+    clear: both;
+    margin-top: -30px;
+    width: 60px;
+    height: 65px;
+  }
+
+  button.navbar-toggle .icon-bar {
+    display: block;
+    width: 45px;
+    height: 4px;
+    border-radius: 8px;
+    border-color: black;
+    padding-right: 7px;
+    margin-bottom: 10px;
+  }
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+  
+}/*Menu button styling ends*/
+
+  
+/************ Main heading Styling **********/
+.jumbotron .main-heading{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.container-fluid .jumbotron {
+    
+  background-color: whitesmoke;
+  overflow: hidden;
+  height: 80px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;   
+}
+
+/********* Content Styling **********************/
+.category-details{
+  text-align: left;
+}
+
+.category-display{
+  height: 1000px;
+  margin-bottom: 50px;
+  background-color: peachpuff;
+  overflow: auto;
+}
+
+
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    .category-display{
+      height: 1000px;
+      margin-bottom: 50px;
+      background-color:peachpuff;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 90%;
+      margin-left: 30px;
+      overflow: auto;
+    }
+    #menuicon-nav{
+    border-top: 2px solid black;
+    }
+}
+
+
+
